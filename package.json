@@ -1,0 +1,25 @@
+{
+  "name": "topogroup",
+  "version": "1.0.0",
+  "description": "topologically sorts and divides a dag into almost disjoint subsets of interconnected vertices",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "keywords": [
+    "graph",
+    "topological",
+    "sort",
+    "dependency",
+    "group"
+  ],
+  "author": "Onur Gunduz <ogunduz@gmail.com> (http://onurgunduz.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "intersect": "^1.0.1",
+    "toposort": "^0.2.10"
+  },
+  "devDependencies": {
+    "tap": "^0.7.1"
+  }
+}
