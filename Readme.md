@@ -13,16 +13,22 @@ var edges = [
   [ 'y', 'j' ],
 ];
 var groups = topogroup(nodes, edges);
-// [ 
-//  [ 'k', 'j' ],
-//  [ 'x', 'y', 'j' ],
-//  [ 'j' ] 
-// ]
+console.log(groups);
+```
+
+outputs:
+
+```
+[
+ [ 'k', 'j' ],
+ [ 'x', 'y', 'j' ],
+ [ 'j' ]
+]
 ```
 
 # api
 
-## topogroup(nodes, edges)
+## var arr = topogroup(nodes, edges)
 
 - `nodes` is the array of vertices.
 - `edges` is the array of directed edges that describes the graph.

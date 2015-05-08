@@ -1,7 +1,7 @@
 {
   "name": "topogroup",
-  "version": "1.0.0",
-  "description": "topologically sorts and divides a dag into almost disjoint subsets of interconnected vertices",
+  "version": "1.0.1",
+  "description": "topologically sorts and divides a dag into almost disjoint subsets",
   "main": "index.js",
   "scripts": {
     "test": "tap test.js"
